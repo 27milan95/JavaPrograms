@@ -3,7 +3,7 @@ package javaPrograms;
 public class Integer___FibonacciSeries {
 
 	public static void main(String[] args) {
-		int n =-2;
+		int n =12;
 		fibonacciSeries(n);
 	}
 	

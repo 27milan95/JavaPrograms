@@ -15,22 +15,6 @@ public class Array___MergeArray {
 		System.out.println(Arrays.toString(result));
 	}
 	
-	public static Set mergeArray1(int[] nums1, int[] nums2) {
-		//int[] nums = new int[nums1.length + nums2.length];
-		Set<Integer> nums = new HashSet<>();
-		for(int num1 : nums1) {
-			for(int num2 : nums2) {
-				if(num1 < num2) {
-					nums.add(num1);
-				}
-				else {
-					nums.add(num2);
-				}
-			}
-		}
-		
-		return nums;
-	}
 	
 	public static int[] mergeArray(int[] nums1, int[] nums2) {
 		int numsLength = nums1.length + nums2.length;

@@ -6,7 +6,7 @@ import java.util.List;
 public class Integer___primeNumberInRange {
 
 	public static void main(String[] args) {
-		int m =55;
+		int m =1;
 		int n = 100;
 		PrimeNumbersFor(m, n);
 		
@@ -16,9 +16,9 @@ public class Integer___primeNumberInRange {
 	public static void PrimeNumbersFor(int m, int n) {
 	int i, j;
 		for( i =m; i<n; i++) {	
-			if(i==0 || i==1) {
-				continue;
-			}
+//			if(i==0 || i==1) {
+//				continue;
+//			}
 			for( j=2; j<i; j++) {
 				if(i%j == 0) {
 					break;
